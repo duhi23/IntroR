@@ -7,6 +7,10 @@
   Version: 1.0.0
 
 - Class: text
+  Output: 'Lección 01: Objetos, Tipos de datos y operaciones básicas en el Lenguaje
+  de programación R.'
+  
+- Class: text
   Output: 'En esta lección conocerás los tipos de datos que existen en el
   lenguaje R, además de las operaciones básicas que puedes hacer con ellos.'
 
