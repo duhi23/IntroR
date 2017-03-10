@@ -7,28 +7,35 @@
   Version: 1.0.0
 
 - Class: text
-  Output: 'Lección 01: Objetos, Tipos de datos y operaciones básicas en el Lenguaje
+  Output: 'Lección 01: Objetos, tipos de datos y operaciones básicas en el Lenguaje
   de programación R.'
   
 - Class: text
   Output: 'En esta lección conocerás los tipos de datos que existen en el
-  lenguaje R, además de las operaciones básicas que puedes hacer con ellos.'
+  lenguaje R, así como las operaciones básicas que puedes realizar en el programa.'
 
 - Class: text
   Output: 'Cuando introduces una expresión en la línea de comandos y das ENTER,
-  R evalúa la expresión y muestra el resultado (si es que existe uno). R puede
-  ser usado como una calculadora, ya que realiza operaciones aritméticas, además
-  de operaciones lógicas.'
+  R evalúa la expresión y muestra el resultado. R puede ser usado como una 
+  calculadora, ya que realiza operaciones aritméticas, además de operaciones 
+  lógicas.'
 
 - Class: cmd_question
-  Output: 'Pruébalo: ingresa 3 + 7 en la línea de comandos.'
-  CorrectAnswer: 3 + 7
-  AnswerTests: omnitest(correctVal=3 + 7)
+  Output: 'Practica: ingresando 2 + 5 en la línea de comandos.'
+  CorrectAnswer: 2 + 5
+  AnswerTests: omnitest(correctVal= 2 + 5)
 
 - Class: text
-  Output: 'R simplemente imprime el resultado 10 por defecto. Sin embargo, R es
-  un lenguaje de programación y normalmente la razón por la que usas éstos es
-  para automatizar algún proceso y evitar la repetición innecesaria.'
+  Output: 'R simplemente imprime el resultado 7 por defecto.'
+
+- Class: cmd_question
+  Output: 'Practica: ingresando 3*4 en la línea de comandos.'
+  CorrectAnswer: 3*4
+  AnswerTests: omnitest(correctVal= 3*4)
+  
+  
+- Class: text
+  Output: 'Ahora el resultado  es 12 fruto de la multiplicación llevada a cabo.'
 
 - Class: text
   Output: 'En ese caso, tal vez quieras usar el resultado anterior en algún otro
